@@ -1,0 +1,119 @@
+@font-face {
+		src: url('./files/UnityText-Bold.woff');
+		font-family: unitybold;
+	}
+	@font-face {
+		src: url('./files/UnityText-Roman.woff');
+		font-family: unity;
+	}
+	html {
+		text-rendering: optimizeLegibility !important;
+		-webkit-font-smoothing: antialiased !important;
+	}
+	body {
+
+		font-family: unity;
+		text-align: center;
+	}
+	body {
+		background-color: rgba(10,82,158,1);
+		color: white;
+			-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	}
+	h1 {
+		font-size: 5em;
+		font-family: unitybold;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	input[type=text] {
+		outline-width: 0px;
+		border: 0px;
+		font-size: 1.1em;
+		font-family: unity;
+		width: 70%;
+		padding: 9px;
+		border-radius: 2px;
+	}
+	#process {
+		background-color: transparent;
+		border: 3px solid white;
+		border-radius: 2px;
+		color: white;
+		cursor: pointer;
+		padding: 11px 20px 11px 20px;
+	}
+	#footer {
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		background-color: rgba(10,82,158,1);
+		bottom: 0px;
+		left:0px;
+		padding-bottom: 15px;
+	}
+	#process:hover {
+		background-color: white;
+		color: rgba(10,82,158,1);
+		border: 3px solid rgba(10,82,158,0.6);
+	}
+	#main_bar {
+		padding-top: 20px;
+		text-align: center;
+	}
+	#logo_small {
+		font-size: 2em;
+		opacity: 0;
+		display: none;
+		padding-right: 5px;
+		font-family: unitybold;
+	}
+	#results {
+		padding-top: 10px;
+		width: 100%;
+		font-family: unity;
+		font-size: 1.1em;
+		text-align: center;
+	}
+	.small {
+		text-transform: uppercase;
+		font-size: 0.7em;
+		color: rgba(255,255,255,0.8);
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		text-decoration: underline;
+	}
+	#suggestion {
+		cursor: pointer;
+	}
+	.stats {
+		color: rgba(255,255,255,0.8);
+		width: 100%;
+		display: block;
+		padding: 0px;
+		text-align: center;
+	}
+	hr {
+		border: 1px solid white;
+		width: 25%;
+		text-align: left;
+	}
+	.resultbox {
+		display: inline-block;
+		width: 16%;
+		box-sizing: border-box;
+		list-style-type: none;
+		border: 2px solid white;
+		padding: 20px;
+		margin-right: 5px;
+		font-size: 0.9em;
+		  white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   max-height: 50%;
+	}
